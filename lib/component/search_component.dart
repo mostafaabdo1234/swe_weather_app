@@ -1,6 +1,8 @@
-import 'package:copy_weather_app/cubit/get_current_cubit/get_current_cubit.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../cubit/get_current_cubit/get_current_cubit.dart';
 
 class SearchComponent extends StatelessWidget {
   const SearchComponent({super.key});

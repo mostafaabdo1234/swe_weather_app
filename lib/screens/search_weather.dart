@@ -1,5 +1,5 @@
-import 'package:copy_weather_app/component/search_component.dart';
 import 'package:flutter/material.dart';
+import '../component/search_component.dart';
 
 class SearchWeather extends StatelessWidget {
   const SearchWeather({super.key});

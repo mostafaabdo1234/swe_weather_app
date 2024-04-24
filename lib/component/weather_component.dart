@@ -1,7 +1,9 @@
-import 'package:copy_weather_app/cubit/get_current_cubit/get_current_cubit.dart';
-import 'package:copy_weather_app/main.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../cubit/get_current_cubit/get_current_cubit.dart';
+import '../main.dart';
 
 class WeatherComponent extends StatelessWidget {
   const WeatherComponent({super.key});

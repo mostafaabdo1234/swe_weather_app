@@ -1,10 +1,12 @@
-import 'package:copy_weather_app/component/no_weather.dart';
-import 'package:copy_weather_app/component/weather_component.dart';
-import 'package:copy_weather_app/cubit/get_current_cubit/get_current_cubit.dart';
-import 'package:copy_weather_app/cubit/get_current_cubit/get_current_state.dart';
-import 'package:copy_weather_app/screens/search_weather.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:swe_weather_app/screens/search_weather.dart';
+
+import '../component/no_weather.dart';
+import '../component/weather_component.dart';
+import '../cubit/get_current_cubit/get_current_cubit.dart';
+import '../cubit/get_current_cubit/get_current_state.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});

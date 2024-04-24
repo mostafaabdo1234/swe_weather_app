@@ -1,8 +1,10 @@
-import 'package:copy_weather_app/cubit/get_current_cubit/get_current_cubit.dart';
-import 'package:copy_weather_app/cubit/get_current_cubit/get_current_state.dart';
-import 'package:copy_weather_app/screens/home.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:swe_weather_app/screens/home.dart';
+
+import 'cubit/get_current_cubit/get_current_cubit.dart';
+import 'cubit/get_current_cubit/get_current_state.dart';
 
 void main() {
   runApp(const WeatherApp());
